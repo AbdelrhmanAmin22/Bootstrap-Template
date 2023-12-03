@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* outline: 1px solid #f00; */
+}
+header, .contactUs {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-image: url('../assets/img/header-bg.jpg');
+}
+.contactUs {
+    background-image: url('../assets/img/map-image.png');
+}
+main h2 {
+    font-size: 70px;
+}
+
+@media (max-width:576px) {
+    main h2 {
+        font-size: 36px;
+    }
+    button {
+        width: 100%;
+    }
+} 
